@@ -12,8 +12,8 @@ done
 #example 2: find files
 echo
 echo example 2
-for file in *.html *.htm; do
-  ls $file
+for file in *.html *.htm *.sh; do
+  ls $file 2>/dev/null
 done
 
 
