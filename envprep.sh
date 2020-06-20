@@ -6,7 +6,7 @@
 
 
 # collect user name and password
-read -p "Would you like the shell to stop asking for new password? (y/n): " answer
+read -p "Would you like the shell to stop asking for sudo password? (y/n): " answer
 case ${answer:0:1} in
     y|Y )
         sudo bash -c 'echo "$(logname) ALL=(ALL:ALL) NOPASSWD: ALL" | (EDITOR="tee -a" visudo)'

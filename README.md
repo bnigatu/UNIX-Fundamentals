@@ -9,7 +9,7 @@ It was also tested on  [CentOs](https://centos.org/) 7.0 or above and [MacOs](ht
 Download the course matterials as follows.
 
 ```sh
-$ wget https://github.com/bnigatu/envprep.sh -P /tmp
+$ wget https://raw.githubusercontent.com/bnigatu/UNIX-Fundamentals/master/envprep.sh -O /tmp/envprep.sh
 $ chmod u+x /tmp/envprep.sh
 $ /tmp/envprep.sh
 ```
